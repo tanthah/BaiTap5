@@ -80,7 +80,7 @@ const Categories = () => {
         ))}
       </Row>
 
-      <style jsx>{`
+      <style>{`
         .category-card {
           transition: transform 0.2s, box-shadow 0.2s;
           cursor: pointer;
@@ -93,5 +93,6 @@ const Categories = () => {
     </Container>
   );
 };
+
 
 export default Categories;
