@@ -302,7 +302,7 @@ const ProductListPagination = () => {
         </>
       )}
 
-      <style jsx>{`
+      <style>{`
         .product-card {
           transition: transform 0.2s, box-shadow 0.2s;
           cursor: pointer;
@@ -315,5 +315,6 @@ const ProductListPagination = () => {
     </Container>
   );
 };
+
 
 export default ProductListPagination;
